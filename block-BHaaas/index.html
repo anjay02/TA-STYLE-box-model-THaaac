@@ -1,12 +1,24 @@
-<!---
-### Create a page with the following elements
-
-1. Create a box having dimensions 300px X 200px. The box also has padding of 20px, border of 10px dashed and margin of 20px.
-
-2. Create another box with the same dimensions and properties, but this time the total size of the box should not expand if we add any padding and border. Apply the appropriate property and value.
-
-3. Calculate the actual size(total width and height) of the box and display below both the boxes.
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper.
---->
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div>
+                <div class="square"></div>
+                <p>Total Width= width:300px+paddding-left:20px+padding-right:20px+border-left:10px+border-right:10px</p>
+                <p>Total Height= height:200px+padding-top:20px+padding-bottom:20px+border-top:10px+border-bottom:10px</p>
+            </div>
+            <div>
+                <div class="square1"></div>
+                <p>Width:300px</p>
+                <p>Height:200px</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
